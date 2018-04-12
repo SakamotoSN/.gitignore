@@ -9,7 +9,7 @@ bot.on('ready', function() {
     console.log("Connected")
 });
 
-bot.login("process.env.TOKEN");
+bot.login(process.env.TOKEN);
 
 
 bot.on('message', message => {
